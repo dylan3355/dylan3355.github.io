@@ -34,9 +34,14 @@ main{
 }
 
 main h3{
-
+    margin-top:3em;
+    font-size:105%;
 }
 
 #list{
+    line-height:1.5em;
+}
 
+footer p.copyright{
+    font-size:80%;
 }
