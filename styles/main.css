@@ -14,8 +14,8 @@ body{
     box-shadow: 5px 5px 0 0;
     background-image: url("../images/Dog.jpg");
     background-position: right;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
+    background-repeat: repeat-y; /*default x and y until page is filled*/
+    background-attachment: fixed; /*default is scroll */
 }
 
 a:focus,a:hover{
