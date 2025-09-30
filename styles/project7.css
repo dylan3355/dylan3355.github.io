@@ -75,5 +75,15 @@ aside{
     width:20%;
     float:right;
     background-color:beige;
-    
+
+}
+footer{
+    clear:both;
+    border-top:2px solid maroon;
+
+}
+
+p.fixed{ /* stops at step 11, continue from there */
+    width:auto;
+
 }
