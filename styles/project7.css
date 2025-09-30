@@ -1,11 +1,11 @@
 html{
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%; 
-    width: 1000px;
+    width: 90%;
     background-color: whitesmoke;
     margin:15px auto;
     padding:15px 1.5em;
@@ -21,6 +21,8 @@ body{
 a:focus,a:hover{
     font-style: italic;
     color: orange;
+    border: 3px blue;
+    border-style: dotted solid;
 }
 
 h1{
@@ -42,44 +44,4 @@ img{
 
 .shadow{
     text-shadow: 2px 2px 2px rgb(128,0,0);
-}
-
-main{
-    clear:left;
-}
-
-main h3{
-    font-size:105%;
-    margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
-
-main nav{
-    margin:1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius:20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: .5em;
-
-}
-
-#list{
-    line-height:1.5em;
-    
-}
-
-div.contact{
-    margin: 1.5em 2em 0 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-
-}
-
-footer p.copyright{
-    font-size:80%;
 }
