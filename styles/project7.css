@@ -82,6 +82,10 @@ footer{
     border-top:2px solid maroon;
 
 }
+footer p.copyright{
+    text-align:center;
+    font-size:80%;
+}
 
 p.fixed{ /* stops at step 11, continue from there */
     width:auto;
