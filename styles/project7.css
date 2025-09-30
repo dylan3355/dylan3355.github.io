@@ -87,7 +87,9 @@ footer p.copyright{
     font-size:80%;
 }
 
-p.fixed{ /* stops at step 11, continue from there */
+p.fixed{ /* stops at step 11, continue from there, add line below name and pic */
+    /* add proper spacing to references section*/
+    /* Contact me should be fixed to right (use pic as reference for these) */
     width:auto;
 
 }
