@@ -97,9 +97,9 @@ p.fixed{ /* stops at step 11, continue from there, add line below name and pic *
 
     top: 50%; 
     position: fixed;
-    width:30%;
+    width:10%;
     float:right;
-    padding: 2em 0;
+    padding: 1em 0;
     border: 3px green;
     background-color: lightgreen;
     border-style: solid;
