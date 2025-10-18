@@ -97,14 +97,21 @@ p.fixed{ /* stops at step 11, continue from there, add line below name and pic *
     /* add proper spacing to references section*/
     /* Contact me should be fixed to right (use pic as reference for these) */
     width:auto;
-
     text-align: right;
-    
+    float:right;
+    top: 50%; 
+    position: fixed;
+    padding: 1em 0;
+    border: 3px green;
+    background-color: lightgreen;
+    border-style: solid;
 
-    width:30%;
+
+    /* 
+    width:auto;
+    text-align: right;
     float:right;
     padding: 1em 0;
     border: 3px green;
-    border-style: solid;
-
+    border-style: solid;*/
 }
