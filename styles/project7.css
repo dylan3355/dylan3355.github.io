@@ -100,13 +100,14 @@ p.fixed{ /* stops at step 11, continue from there, add line below name and pic *
     text-align: right;
     float:right;
     top: 20%; 
-    position: fixed;
     padding: 1em 1em;
-    border: 3px darkgreen;
+    border: 3px blue;
     border-style: solid;
     background-color: lightgreen;
 
-
+    position: fixed;
+    right: 3em;
+    top: 3em;
     /* 
     width:auto;
     text-align: right;
