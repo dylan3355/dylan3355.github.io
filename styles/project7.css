@@ -107,7 +107,7 @@ p.fixed{ /* stops at step 11, continue from there, add line below name and pic *
 
     position: fixed;
     right: 2em;
-    top: 30em;
+    top: 24em;
     /* 
     width:auto;
     text-align: right;
