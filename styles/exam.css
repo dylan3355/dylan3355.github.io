@@ -40,7 +40,7 @@ aside ul {
 
 aside{
     width:auto;
-    text-align: right;
+    text-align: left;
     float:left;
     top: 20%; 
     padding: 1em 1em;
@@ -49,7 +49,7 @@ aside{
     background-color: lightblue;
 
     position: fixed;
-    right: 3em;
+    right: 5em;
     top: 24em;
 
 }
