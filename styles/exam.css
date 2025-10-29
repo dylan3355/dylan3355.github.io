@@ -40,8 +40,8 @@ aside ul {
 
 aside{
     width:auto;
-    text-align: left;
-    float:right;
+    text-align: right;
+    float:left;
     top: 20%; 
     padding: 1em 1em;
     border: 3px darkblue;
