@@ -37,3 +37,19 @@ aside ol {
 aside ul {
     list-style-type:square;
 }
+
+aside{
+    width:auto;
+    text-align: right;
+    float:right;
+    top: 20%; 
+    padding: 1em 1em;
+    border: 3px darkblue;
+    border-style: solid;
+    background-color: lightblue;
+
+    position: fixed;
+    right: 2em;
+    top: 24em;
+
+}
