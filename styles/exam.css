@@ -88,6 +88,11 @@ article p img {
   margin-right: 10px; /* spacing between image and text */
 }
 
+footer{
+    clear:both;
+    border-top:2px solid blue;
+
+}
 footer p.copyright{
     text-align:center;
     font-size:80%;
