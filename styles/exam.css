@@ -27,7 +27,19 @@
 }
 
 article{
+
     clear:both;
+
+    border-top:2px solid blue;
+    border-bottom: 2px solid blue;
+
+    clear:left;
+    width:70%;
+    float:left;
+    column-count:2;
+    column-rule:2px dotted blue;
+    column-gap:2em;
+    margin-left:2em;
 }
 
 aside ol {
