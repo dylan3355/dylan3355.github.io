@@ -31,7 +31,7 @@ body{
     margin:15px auto;
     
     background-image: url("../images/sam_houston_state_bearkats_2020-pres.webp");
-    background-position: right 150px top;
+    background-position: right 10em top;
     background-repeat: repeat-y; 
     background-attachment: fixed; 
 }
