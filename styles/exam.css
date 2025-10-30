@@ -10,7 +10,7 @@
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0; /* padding above and below a elements */
+    padding: 1em 0; 
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -94,7 +94,7 @@ article p::first-letter{
 
 article p img {
   float: left;
-  margin-right: 10px; /* spacing between image and text */
+  margin-right: 10px; 
 }
 
 footer{
