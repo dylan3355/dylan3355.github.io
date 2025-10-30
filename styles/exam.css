@@ -26,7 +26,15 @@
 #nav_menu ul li a.current { 
     color: yellow; 
 }
-
+body{
+    width:95%;
+    margin:15px auto;
+    
+    background-image: url("../images/sam_houston_state_bearkats_2020-pres.webp");
+    background-position: right;
+    background-repeat: repeat-y; 
+    background-attachment: fixed; 
+}
 article{
 
     clear:both;
@@ -36,10 +44,10 @@ article{
     
     
     clear:left;
-    width:70%;
+    width:75%;
     float:left;
     column-count:3;
-    column-rule:2px dotted blue;
+    column-rule:4px dashed blue;
     column-gap:2em;
     margin-left:2em;
     padding-top: 5em;
@@ -60,7 +68,7 @@ aside ul {
 aside{
     
     
-    width:auto;
+    width:20%;
     text-align: left;
     float:left;
     top: 20%; 
@@ -92,6 +100,7 @@ article p img {
 footer{
     clear:both;
     text-align:center;
+    margin-top:3em;
     margin-left:-5em;
 }
 
