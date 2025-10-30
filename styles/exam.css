@@ -52,6 +52,8 @@ aside ul {
 }
 
 aside{
+    
+    
     width:auto;
     text-align: left;
     float:left;
@@ -65,4 +67,23 @@ aside{
     right: 5em;
     top: 24em;
 
+}
+article h2{
+    color: blue;
+}
+article p::first-letter{
+    font-size:3em;
+    font-weight:bold;
+    
+    color:black;
+}
+
+article p img {
+  float: left;
+  margin-right: 10px; /* spacing between image and text */
+}
+
+footer p.copyright{
+    text-align:center;
+    font-size:80%;
 }
