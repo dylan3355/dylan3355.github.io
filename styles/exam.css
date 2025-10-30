@@ -37,7 +37,7 @@ article{
     clear:left;
     width:70%;
     float:left;
-    column-count:2;
+    column-count:3;
     column-rule:2px dotted blue;
     column-gap:2em;
     margin-left:2em;
@@ -76,11 +76,6 @@ article p::first-letter{
     font-weight:bold;
     
     color:black;
-
-    float: left;
-    line-height: 1;
-    margin-right: 4px;
-
 }
 
 article p img {
@@ -90,10 +85,11 @@ article p img {
 
 footer{
     clear:both;
-    border-top:2px solid blue;
-
-}
-footer p.copyright{
     text-align:center;
+    margin-left:-5em;
+}
+
+footer p.copyright{
+    
     font-size:80%;
 }
