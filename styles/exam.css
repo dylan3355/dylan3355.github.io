@@ -76,6 +76,11 @@ article p::first-letter{
     font-weight:bold;
     
     color:black;
+
+    float: left;
+    line-height: 1;
+    margin-right: 4px;
+
 }
 
 article p img {
