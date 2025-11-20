@@ -74,7 +74,7 @@ margin-top: 0px;
 transform: rotate(-405deg);
 }
 
-
+/*--- end of menu ---*/
 
 section a {
     text-decoration: none;
@@ -164,9 +164,4 @@ footer{
         text-align: center;
         font-size:.6em;
     }
-}
-
-/* give me css for media queries for min-width 1200px with complete code to scale up text and iamges*/
-@media screen {
-    
 }
