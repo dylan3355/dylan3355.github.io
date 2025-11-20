@@ -48,7 +48,7 @@ table.third th {
 table.third th, table.third td {
     padding: 0.7em;  
     vertical-align: middle;
-    border: 2px solid red;
+    /*--border: 2px solid red;--*/
 }
 table.third thead tr:first-child{     
     border-bottom: 2px solid red;
