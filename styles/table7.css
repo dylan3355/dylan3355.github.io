@@ -39,15 +39,17 @@ table.second thead tr:first-child{
 
 table.third {    
     border-collapse: collapse; 
-    border: 2px solid red;   
-    caption-side: bottom;
+    border-bottom: 2px solid red;   
+    border-top: 2px solid red;
+   
 }
 table.third th {
-    background-color: greenyellow;
+    background-color: lightgreen;
+    border-bottom: 2px solid red;  
 }
 table.third th, table.third td {
     padding: 0.7em;  
-    vertical-align: middle;
+    vertical-align: top;
     /*--border: 2px solid red;--*/
 }
 table.third thead tr:first-child{     
