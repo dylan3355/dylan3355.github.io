@@ -90,21 +90,15 @@
         <h2>Gallery</h2>
         <h3>A preview of our location</h3>
 
-        <!-- Hidden checkbox -->
-        <input type="checkbox" id="toggle-gallery" class="toggle-gallery">
+        <details class="gallery-toggle">
+            <summary class="btn secondary-btn">Open Gallery</summary>
 
-        <!-- Button that expands gallery -->
-        <label for="toggle-gallery" class="btn secondary-btn">
-            View Gallery
-        </label>
-
-        <!-- Hidden image grid -->
-        <div class="gallery-content">
-            <img src="images/montraIMG1.png" alt="Image 1">
-            <img src="images/montraIMG2.png" alt="Image 2">
-            <img src="images/montraIMG3.png" alt="Image 3">
-            
-        </div>
+            <div class="gallery-images">
+                <img src="images/montraIMG1.png" alt="img1">
+                <img src="images/montraIMG2.png" alt="img2">
+                <img src="images/montraIMG3.png" alt="img3">
+            </div>
+        </details>
     </div>
 </section>
 

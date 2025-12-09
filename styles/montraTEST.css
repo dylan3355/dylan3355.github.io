@@ -363,4 +363,26 @@ footer a {
     border-radius: 6px;
 }
 
+   .gallery-toggle summary {
+    cursor: pointer;
+    list-style: none;      /* Remove ugly triangle */
+}
+
+.gallery-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.gallery-images img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 }
