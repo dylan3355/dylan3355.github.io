@@ -10,7 +10,7 @@
     <meta name="keywords" content="Montra Thai Massage, traditional Thai massage, deep tissue, relaxation massage, Thai therapy, wellness, spa, professional massage, Thai, Massage, Asian, Relax, therapy, relief">
     <meta name="author" content="Montra Web Team">
 
-    <link rel="stylesheet" href="styles/montraTEST.css">
+    <link rel="stylesheet" href="styles/montra.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -90,17 +90,24 @@
         <h2>Gallery</h2>
         <h3>A preview of our location</h3>
 
-        <a href="#full-gallery" class="btn secondary-btn">Gallery</a>
-            <section id="full-gallery" class="full-gallery">
-                <img src="images/montraIMG1.png" alt="Gallery image 1">
-                <img src="images/montraIMG2.png" alt="Gallery image 2">
-                <img src="images/montraIMG3.png" alt="Gallery image 3">
-            </div>
-        </section>
+        <!-- Hidden checkbox -->
+        <input type="checkbox" id="toggle-gallery" class="toggle-gallery">
+
+        <!-- Button that expands gallery -->
+        <label for="toggle-gallery" class="btn secondary-btn">
+            View Gallery
+        </label>
+
+        <!-- Hidden image grid -->
+        <div class="gallery-content">
+            <img src="images/montraIMG1.png" alt="Image 1">
+            <img src="images/montraIMG2.png" alt="Image 2">
+            <img src="images/montraIMG3.png" alt="Image 3">
             
         </div>
     </div>
 </section>
+
 
         <section id="contact" class="contact">
             <div class="container">
