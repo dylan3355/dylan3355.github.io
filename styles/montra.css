@@ -220,8 +220,8 @@ nav ul a:hover {
     margin-top: 10px;
 }
 
-/* Gallary & Contact */
-.gallary, .contact {
+/* Gallery & Contact */
+.gallery, .contact {
     padding: var(--padding-section);
     text-align: center;
 }
