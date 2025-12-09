@@ -312,4 +312,77 @@ footer a {
     .social-links {
         margin-top: 10px;
     }
+   
+   .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+   /* Hide checkbox */
+.toggle-gallery {
+    display: none;
+}
+
+/* Gallery content hidden by default */
+.gallery-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Expand gallery when checkbox is checked */
+.toggle-gallery:checked ~ .gallery-content {
+    max-height: 1000px; /* large enough to show all images */
+}
+
+/* Style the button */
+.btn.secondary-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Example image styles */
+.gallery-content img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+   .gallery-toggle summary {
+    cursor: pointer;
+    list-style: none;      /* Remove ugly triangle */
+}
+
+.gallery-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.gallery-images img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 }
